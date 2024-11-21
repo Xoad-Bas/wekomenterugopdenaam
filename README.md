@@ -1,3 +1,16 @@
+# RUN THE GAME
+   # virtual environment
+   python3 -m venv .venv 
+   .venv\Scripts\activate
+   pip install -r requirements.txt
+
+   # run game
+   cd src
+   python3 main.py
+
+   # deactivate after done
+   deactivate
+
 # RAPID FIRE DECISIOPNMS ELLES & BAS
  - TOPDOWN
  - FIGHTS / INTERACT
