@@ -21,7 +21,7 @@
  - MOODBOARD
  - Eerste sprite
     Voor / zij/ achter
- - Centreren character
+ - Verhaal grote lijnen presenteren aan broer
  - Map layout maken ( 1600 x 1600 )
     - 1 map
     - Blokjes worden gerenderd binnen ~50 blokjes van character
