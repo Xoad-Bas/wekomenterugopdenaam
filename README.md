@@ -1,14 +1,23 @@
 # RUN THE GAME
-   # virtual environment
+   # Virtual environment
    python3 -m venv .venv 
-   .venv\Scripts\activate
-   pip install -r requirements.txt
+
+   # mac
+      source .venv/bin/activate
+      export PYTHONPATH=$(pwd)/src 
+      which python 
+   # windows:
+      .\venv\Scripts\activate
+      $env:PYTHONPATH = "$(pwd)/src"
+      where python
+
+   python3 -m pip install --upgrade pip 
+   pip3 install -r requirements.txt
 
    # run game
-   cd src
-   python3 main.py
+   python3 run_game.py
 
-   # deactivate after done
+   # close virtual environment
    deactivate
 
 # RAPID FIRE DECISIOPNMS ELLES & BAS
