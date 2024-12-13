@@ -1,17 +1,17 @@
 # RUN THE GAME
    # Virtual environment
-   python3 -m venv .venv 
+   python3 -m venv .venv
 
    # mac
       source .venv/bin/activate
       export PYTHONPATH=$(pwd)/src 
       which python 
    # windows:
-      .\venv\Scripts\activate
-      $env:PYTHONPATH = "$(pwd)/src"
+      .venv\Scripts\activate
+      $env:PYTHONPATH = "$(pwd)"
       where python
 
-   python3 -m pip install --upgrade pip 
+   python3 -m pip install --upgrade pip
    pip3 install -r requirements.txt
 
    # run game
